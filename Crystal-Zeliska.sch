@@ -26,66 +26,32 @@ F 3 "" H 2600 1050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3200 1650 3600 1650
-Text Label 3600 1650 0    50   ~ 0
-+5V
 Wire Wire Line
 	3200 1750 3650 1750
-Text Label 3550 2450 0    50   ~ 0
-col0
 Wire Wire Line
 	3200 1850 3650 1850
-Text Label 3650 2350 0    50   ~ 0
-col1
 Wire Wire Line
 	3200 1950 3650 1950
-Text Label 3650 2250 0    50   ~ 0
-col2
 Wire Wire Line
 	3200 2050 3650 2050
-Text Label 3650 2150 0    50   ~ 0
-col3
 Wire Wire Line
 	3200 2150 3650 2150
-Text Label 3650 2050 0    50   ~ 0
-col4
 Wire Wire Line
 	3200 2250 3650 2250
-Text Label 3650 1950 0    50   ~ 0
-col5
 Wire Wire Line
 	3200 2350 3650 2350
-Text Label 3650 1850 0    50   ~ 0
-col6
 Wire Wire Line
 	3200 2450 3550 2450
-Text Label 1550 1950 0    50   ~ 0
-row0
 Wire Wire Line
 	1800 1950 1550 1950
-Text Label 1550 2050 0    50   ~ 0
-row1
 Wire Wire Line
 	1800 2050 1550 2050
-Text Label 1550 2150 0    50   ~ 0
-row2
 Wire Wire Line
 	1800 2150 1550 2150
-Text Label 1550 2250 0    50   ~ 0
-row3
 Wire Wire Line
 	1800 2250 1550 2250
-Text Label 1550 2350 0    50   ~ 0
-row4
-Wire Wire Line
-	3200 1450 3250 1450
-Text Label 3600 1450 0    50   ~ 0
-GND
 Wire Wire Line
 	3200 1550 3400 1550
-Text Label 3400 1200 0    50   ~ 0
-RST
-Text Label 1500 1450 0    50   ~ 0
-TRRS1
 $Comp
 L keyboard_parts:KEYSW K4
 U 1 1 60526083
@@ -97,8 +63,6 @@ F 3 "" H 1850 7400 60  0000 C CNN
 	1    1850 7400
 	1    0    0    -1  
 $EndComp
-Text Label 2150 3650 0    50   ~ 0
-col0
 $Comp
 L Device:D D4
 U 1 1 6052780C
@@ -110,8 +74,6 @@ F 3 "~" H 1550 7800 50  0001 C CNN
 	1    1550 7800
 	0    -1   -1   0   
 $EndComp
-Text Label 1000 4550 0    50   ~ 0
-row0
 $Comp
 L keyboard_parts:KEYSW K1
 U 1 1 6052896E
@@ -134,8 +96,6 @@ F 3 "~" H 1550 5250 50  0001 C CNN
 	1    1550 5250
 	0    -1   -1   0   
 $EndComp
-Text Label 1000 5400 0    50   ~ 0
-row1
 Wire Wire Line
 	1550 7400 1550 7650
 $Comp
@@ -175,8 +135,6 @@ F 3 "" H 3450 4000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3750 4000 3750 3650
-Text Label 3750 3650 0    50   ~ 0
-col2
 $Comp
 L Device:D D9
 U 1 1 60544327
@@ -216,8 +174,6 @@ Wire Wire Line
 	3950 4000 3950 4250
 Wire Wire Line
 	2950 4000 2950 3650
-Text Label 2950 3650 0    50   ~ 0
-col1
 Connection ~ 2350 4550
 Connection ~ 3150 4550
 Wire Wire Line
@@ -332,8 +288,6 @@ F 3 "~" H 1550 6150 50  0001 C CNN
 	1    1550 6150
 	0    -1   -1   0   
 $EndComp
-Text Label 1000 6300 0    50   ~ 0
-row2
 $Comp
 L keyboard_parts:KEYSW K3
 U 1 1 605B6BCE
@@ -356,8 +310,6 @@ F 3 "~" H 1550 7000 50  0001 C CNN
 	1    1550 7000
 	0    -1   -1   0   
 $EndComp
-Text Label 1000 7150 0    50   ~ 0
-row3
 Wire Wire Line
 	1550 5750 1550 6000
 Wire Wire Line
@@ -546,8 +498,6 @@ Wire Wire Line
 	3150 6300 3950 6300
 Wire Wire Line
 	2350 6300 3150 6300
-Text Label 1050 8000 0    50   ~ 0
-row4
 $Comp
 L keyboard_parts:KEYSW K21
 U 1 1 605F7427
@@ -763,8 +713,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 4000 4550 3650
 Connection ~ 4550 4000
-Text Label 4550 3650 0    50   ~ 0
-col3
 $Comp
 L keyboard_parts:KEYSW K22
 U 1 1 606380AD
@@ -896,13 +844,9 @@ Wire Wire Line
 Wire Wire Line
 	5350 4000 5350 3650
 Connection ~ 5350 4000
-Text Label 5350 3650 0    50   ~ 0
-col4
 Wire Wire Line
 	6150 4000 6150 3650
 Connection ~ 6150 4000
-Text Label 6150 3650 0    50   ~ 0
-col5
 Wire Wire Line
 	6150 5750 6150 6600
 Connection ~ 3950 6300
@@ -911,32 +855,22 @@ Connection ~ 5550 6300
 $Comp
 L Switch:SW_Push_Open_Dual SW1
 U 1 1 607FAF03
-P 3950 750
-F 0 "SW1" H 3950 960 50  0000 C CNN
-F 1 "SW_Push_Open_Dual" H 3950 869 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 3950 950 50  0001 C CNN
-F 3 "~" H 3950 950 50  0001 C CNN
-	1    3950 750 
+P 4900 1900
+F 0 "SW1" H 4900 2110 50  0000 C CNN
+F 1 "SW_Push_Open_Dual" H 4900 2019 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 4900 2100 50  0001 C CNN
+F 3 "~" H 4900 2100 50  0001 C CNN
+	1    4900 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 750  3400 750 
+	5100 1900 5250 1900
 Wire Wire Line
-	4150 750  4300 750 
-Text Label 4300 750  0    50   ~ 0
-GND
+	6850 1700 7050 1700
 Wire Wire Line
-	5000 2600 5200 2600
-Wire Wire Line
-	4400 2600 4100 2600
-Text Label 4100 2600 0    50   ~ 0
-ledin
-Text Label 4450 2900 0    50   ~ 0
-GND
+	6250 1700 5950 1700
 Wire Wire Line
 	1800 2450 1550 2450
-Text Label 3650 1750 0    50   ~ 0
-ledin
 Wire Wire Line
 	1550 7150 2350 7150
 Wire Wire Line
@@ -958,158 +892,150 @@ Wire Wire Line
 	4750 7150 5550 7150
 Wire Wire Line
 	1800 2350 1550 2350
+Connection ~ 6550 2000
 Wire Wire Line
-	1800 1650 1700 1650
+	6550 2000 6300 2000
+Connection ~ 8150 2000
+Connection ~ 7350 2000
 Wire Wire Line
-	1700 1650 1700 1550
+	7350 2000 8150 2000
 Wire Wire Line
-	1800 1550 1700 1550
-Connection ~ 4700 2900
+	6550 2000 7350 2000
+Connection ~ 6550 1400
 Wire Wire Line
-	4700 2900 4450 2900
-Connection ~ 6300 2900
-Connection ~ 5500 2900
+	6550 1400 6300 1400
 Wire Wire Line
-	5500 2900 6300 2900
+	7350 1400 6550 1400
+Connection ~ 7350 1400
+Connection ~ 8150 1400
 Wire Wire Line
-	4700 2900 5500 2900
-Text Label 4450 2300 0    50   ~ 0
-+5V
-Connection ~ 4700 2300
-Wire Wire Line
-	4700 2300 4450 2300
-Wire Wire Line
-	5500 2300 4700 2300
-Connection ~ 5500 2300
-Connection ~ 6300 2300
-Wire Wire Line
-	6300 2300 5500 2300
+	8150 1400 7350 1400
 $Comp
 L LED:WS2812B D39
 U 1 1 6085D764
-P 6300 2600
-F 0 "D39" H 6644 2646 50  0000 L CNN
-F 1 "WS2812B" H 6644 2555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6350 2300 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6400 2225 50  0001 L TNN
-	1    6300 2600
+P 8150 1700
+F 0 "D39" H 8494 1746 50  0000 L CNN
+F 1 "WS2812B" H 8494 1655 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8200 1400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8250 1325 50  0001 L TNN
+	1    8150 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B D37
 U 1 1 6084982D
-P 5500 2600
-F 0 "D37" H 5844 2646 50  0000 L CNN
-F 1 "WS2812B" H 5844 2555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5550 2300 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5600 2225 50  0001 L TNN
-	1    5500 2600
+P 7350 1700
+F 0 "D37" H 7694 1746 50  0000 L CNN
+F 1 "WS2812B" H 7694 1655 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7400 1400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7450 1325 50  0001 L TNN
+	1    7350 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B D35
 U 1 1 60842273
-P 4700 2600
-F 0 "D35" H 5044 2646 50  0000 L CNN
-F 1 "WS2812B" H 5044 2555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4750 2300 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4800 2225 50  0001 L TNN
-	1    4700 2600
+P 6550 1700
+F 0 "D35" H 6894 1746 50  0000 L CNN
+F 1 "WS2812B" H 6894 1655 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6600 1400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6650 1325 50  0001 L TNN
+	1    6550 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B D41
 U 1 1 6097910C
-P 7100 2600
-F 0 "D41" H 7444 2646 50  0000 L CNN
-F 1 "WS2812B" H 7444 2555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7150 2300 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 2225 50  0001 L TNN
-	1    7100 2600
+P 8950 1700
+F 0 "D41" H 9294 1746 50  0000 L CNN
+F 1 "WS2812B" H 9294 1655 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9000 1400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9050 1325 50  0001 L TNN
+	1    8950 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B D43
 U 1 1 6097B90D
-P 8100 2600
-F 0 "D43" H 8444 2646 50  0000 L CNN
-F 1 "WS2812B" H 8444 2555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8150 2300 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8200 2225 50  0001 L TNN
-	1    8100 2600
+P 9950 1700
+F 0 "D43" H 10294 1746 50  0000 L CNN
+F 1 "WS2812B" H 10294 1655 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10000 1400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10050 1325 50  0001 L TNN
+	1    9950 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B D42
 U 1 1 6097C4F5
-P 8100 1800
-F 0 "D42" H 8444 1846 50  0000 L CNN
-F 1 "WS2812B" H 8444 1755 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8150 1500 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8200 1425 50  0001 L TNN
-	1    8100 1800
+P 9950 900
+F 0 "D42" H 10294 946 50  0000 L CNN
+F 1 "WS2812B" H 10294 855 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10000 600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10050 525 50  0001 L TNN
+	1    9950 900 
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED:WS2812B D40
 U 1 1 6097CDE9
-P 7100 1800
-F 0 "D40" H 7444 1846 50  0000 L CNN
-F 1 "WS2812B" H 7444 1755 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7150 1500 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 1425 50  0001 L TNN
-	1    7100 1800
+P 8950 900
+F 0 "D40" H 9294 946 50  0000 L CNN
+F 1 "WS2812B" H 9294 855 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9000 600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9050 525 50  0001 L TNN
+	1    8950 900 
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED:WS2812B D38
 U 1 1 6097DA61
-P 6300 1800
-F 0 "D38" H 6644 1846 50  0000 L CNN
-F 1 "WS2812B" H 6644 1755 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6350 1500 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6400 1425 50  0001 L TNN
-	1    6300 1800
+P 8150 900
+F 0 "D38" H 8494 946 50  0000 L CNN
+F 1 "WS2812B" H 8494 855 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8200 600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8250 525 50  0001 L TNN
+	1    8150 900 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6300 2100 7100 2100
-Connection ~ 7100 2100
+	8150 1200 8950 1200
+Connection ~ 8950 1200
 Wire Wire Line
-	7100 2100 8100 2100
+	8950 1200 9950 1200
 Wire Wire Line
-	8100 2100 8100 2300
+	9950 1200 9950 1400
 Wire Wire Line
-	8100 2300 7100 2300
-Connection ~ 8100 2100
-Connection ~ 8100 2300
-Connection ~ 7100 2300
+	9950 1400 8950 1400
+Connection ~ 9950 1200
+Connection ~ 9950 1400
+Connection ~ 8950 1400
 Wire Wire Line
-	7100 2300 6300 2300
+	8950 1400 8150 1400
 Wire Wire Line
-	8700 2900 8700 1500
+	10550 2000 10550 600 
 Wire Wire Line
-	8700 1500 8100 1500
+	10550 600  9950 600 
 Wire Wire Line
-	6300 2900 7100 2900
-Connection ~ 7100 2900
+	8150 2000 8950 2000
+Connection ~ 8950 2000
 Wire Wire Line
-	7100 2900 8100 2900
-Connection ~ 8100 2900
+	8950 2000 9950 2000
+Connection ~ 9950 2000
 Wire Wire Line
-	8100 2900 8700 2900
-Connection ~ 7100 1500
+	9950 2000 10550 2000
+Connection ~ 8950 600 
 Wire Wire Line
-	7100 1500 6300 1500
-Connection ~ 8100 1500
+	8950 600  8150 600 
+Connection ~ 9950 600 
 Wire Wire Line
-	8100 1500 7100 1500
+	9950 600  8950 600 
 Wire Wire Line
-	8400 2600 8400 1800
+	10250 1700 10250 900 
 Wire Wire Line
-	7800 1800 7400 1800
+	9650 900  9250 900 
 Wire Wire Line
-	6800 1800 6600 1800
+	8650 900  8450 900 
 Wire Wire Line
 	1800 1450 1500 1450
 Wire Wire Line
@@ -1143,8 +1069,6 @@ Connection ~ 5550 8000
 Connection ~ 6150 6600
 Wire Wire Line
 	6350 4000 6350 4250
-Text Label 6950 3650 0    50   ~ 0
-col6
 Wire Wire Line
 	6950 4000 6950 4850
 $Comp
@@ -1222,23 +1146,11 @@ Wire Wire Line
 Connection ~ 6950 5750
 Connection ~ 6950 6600
 Wire Wire Line
-	6600 2600 6800 2600
+	8450 1700 8650 1700
 Wire Wire Line
-	7400 2600 7800 2600
+	9250 1700 9650 1700
 Wire Wire Line
-	5800 2600 6000 2600
-Wire Wire Line
-	3400 750  3400 1550
-Connection ~ 1700 1550
-Wire Wire Line
-	1700 1550 1700 1000
-Wire Wire Line
-	1700 1000 3250 1000
-Wire Wire Line
-	3250 1000 3250 1450
-Connection ~ 3250 1450
-Wire Wire Line
-	3250 1450 3600 1450
+	7650 1700 7850 1700
 Wire Wire Line
 	6950 3650 6950 4000
 Connection ~ 6950 4000
@@ -1246,67 +1158,147 @@ Wire Wire Line
 	1600 1850 1800 1850
 Wire Wire Line
 	1600 1750 1800 1750
-Text Label 1600 1750 0    50   ~ 0
-SCL-OLED
-Text Label 1600 1850 0    50   ~ 0
-SDA-OLED
-Text Label 650  2900 0    50   ~ 0
-SDA-OLED
-Text Label 650  3000 0    50   ~ 0
-SCL-OLED
-Text Label 650  3100 0    50   ~ 0
-+5V
-Text Label 650  3200 0    50   ~ 0
-GND
 $Comp
 L SSD1306-128x64_OLED:SSD1306 Brd1
 U 1 1 6077F14B
-P 1550 3050
-F 0 "Brd1" V 1596 2772 50  0000 R CNN
-F 1 "SSD1306" V 1505 2772 50  0000 R CNN
-F 2 "kbd:OLED" H 1550 3300 50  0001 C CNN
-F 3 "" H 1550 3300 50  0001 C CNN
-	1    1550 3050
+P 9900 2850
+F 0 "Brd1" V 9946 2572 50  0000 R CNN
+F 1 "SSD1306" V 9855 2572 50  0000 R CNN
+F 2 "kbd:OLED" H 9900 3100 50  0001 C CNN
+F 3 "" H 9900 3100 50  0001 C CNN
+	1    9900 2850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	650  2900 1200 2900
+	9000 2700 9550 2700
 Wire Wire Line
-	650  3000 1200 3000
+	9000 2800 9550 2800
 Wire Wire Line
-	1200 3100 650  3100
+	9550 2900 9000 2900
 Wire Wire Line
-	1200 3200 650  3200
+	9550 3000 9000 3000
 $Comp
 L keebio:TRRS U2
 U 1 1 60759775
-P 1100 1100
-F 0 "U2" H 1328 1403 60  0000 L CNN
-F 1 "TRRS" H 1328 1297 60  0000 L CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 1250 1100 60  0001 C CNN
-F 3 "" H 1250 1100 60  0001 C CNN
-	1    1100 1100
+P 6550 2900
+F 0 "U2" H 6778 3203 60  0000 L CNN
+F 1 "TRRS" H 6778 3097 60  0000 L CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 6700 2900 60  0001 C CNN
+F 3 "" H 6700 2900 60  0001 C CNN
+	1    6550 2900
 	1    0    0    -1  
 $EndComp
-Text Label 550  700  0    50   ~ 0
-+5V
-Text Label 550  800  0    50   ~ 0
-TRRS1
-Text Label 550  1000 0    50   ~ 0
-GND
 Wire Wire Line
-	750  1000 550  1000
+	6200 2800 6000 2800
 Wire Wire Line
-	550  900  750  900 
+	6000 2700 6200 2700
 Wire Wire Line
-	550  800  750  800 
+	6000 2600 6200 2600
 Wire Wire Line
-	550  700  750  700 
-NoConn ~ 6000 1800
+	6000 2500 6200 2500
+NoConn ~ 7850 900 
 NoConn ~ 3200 1350
 NoConn ~ 1800 1350
-NoConn ~ 3750 950 
-NoConn ~ 4150 950 
+NoConn ~ 4700 2100
+NoConn ~ 5100 2100
 NoConn ~ 1550 2450
-NoConn ~ 550  900 
+NoConn ~ 6000 2700
+Text GLabel 3650 1750 2    50   Input ~ 0
+ledin
+Text GLabel 5950 1700 0    50   Input ~ 0
+ledin
+Text GLabel 3600 1650 2    50   Input ~ 0
++5V
+Text GLabel 6300 1400 0    50   Input ~ 0
++5V
+Text GLabel 9000 2900 0    50   Input ~ 0
++5V
+Text GLabel 6000 2500 0    50   Input ~ 0
++5V
+Text GLabel 1500 1450 0    50   Input ~ 0
+TRRS1
+Text GLabel 6000 2600 0    50   Input ~ 0
+TRRS1
+Text GLabel 6000 2800 0    50   Input ~ 0
+GND
+Text GLabel 6300 2000 0    50   Input ~ 0
+GND
+Text GLabel 3350 1450 2    50   Input ~ 0
+GND
+Text GLabel 9000 3000 0    50   Input ~ 0
+GND
+Text GLabel 5250 1900 2    50   Input ~ 0
+GND
+Text GLabel 9000 2700 0    50   Input ~ 0
+SDA-OLED
+Text GLabel 1600 1850 0    50   Input ~ 0
+SDA-OLED
+Text GLabel 1600 1750 0    50   Input ~ 0
+SCL-OLED
+Text GLabel 9000 2800 0    50   Input ~ 0
+SCL-OLED
+Text GLabel 1550 1950 0    50   Input ~ 0
+Row0
+Text GLabel 1550 2050 0    50   Input ~ 0
+Row1
+Text GLabel 1550 2150 0    50   Input ~ 0
+Row2
+Text GLabel 1550 2250 0    50   Input ~ 0
+Row3
+Text GLabel 1550 2350 0    50   Input ~ 0
+Row4
+Text GLabel 1000 4550 0    50   Input ~ 0
+Row0
+Text GLabel 1000 5400 0    50   Input ~ 0
+Row1
+Text GLabel 1000 6300 0    50   Input ~ 0
+Row2
+Text GLabel 1000 7150 0    50   Input ~ 0
+Row3
+Text GLabel 1050 8000 0    50   Input ~ 0
+Row4
+Text GLabel 3650 1850 2    50   Input ~ 0
+Col6
+Text GLabel 3650 1950 2    50   Input ~ 0
+Col5
+Text GLabel 3650 2050 2    50   Input ~ 0
+Col4
+Text GLabel 3650 2150 2    50   Input ~ 0
+Col3
+Text GLabel 3650 2250 2    50   Input ~ 0
+Col2
+Text GLabel 3650 2350 2    50   Input ~ 0
+Col1
+Text GLabel 3550 2450 2    50   Input ~ 0
+Col0
+Text GLabel 3400 1550 2    50   Input ~ 0
+RST
+Wire Wire Line
+	4500 1900 4700 1900
+Text GLabel 4500 1900 0    50   Input ~ 0
+RST
+Text GLabel 2150 3650 1    50   Input ~ 0
+Col0
+Text GLabel 2950 3650 1    50   Input ~ 0
+Col1
+Text GLabel 3750 3650 1    50   Input ~ 0
+Col2
+Text GLabel 4550 3650 1    50   Input ~ 0
+Col3
+Text GLabel 5350 3650 1    50   Input ~ 0
+Col4
+Text GLabel 6150 3650 1    50   Input ~ 0
+Col5
+Text GLabel 6950 3650 1    50   Input ~ 0
+Col6
+Wire Wire Line
+	1700 1550 1800 1550
+Wire Wire Line
+	1700 1650 1800 1650
+Wire Wire Line
+	3350 1450 3200 1450
+Text GLabel 1700 1550 0    50   Input ~ 0
+GND
+Text GLabel 1700 1650 0    50   Input ~ 0
+GND
 $EndSCHEMATC

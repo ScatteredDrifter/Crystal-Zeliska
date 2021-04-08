@@ -1,8 +1,9 @@
 # Crystal-Zeliska
 ---
-<div align="right">**Created and designed by: Fabian.S || ScatteredDrifter**
+##### <div align="right">Created and designed by: Fabian.S || ScatteredDrifter
 </div>
-
+<br />
+<br/>
 Welcome my first attempt to design a orthogonal split-keyboard. 
 
 This is a 62-key-keyboard with 31 1u keys per side. 

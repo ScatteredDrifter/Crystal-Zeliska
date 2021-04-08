@@ -1,7 +1,7 @@
 # Crystal-Zeliska
 ---
-**<div align="right">Created and designed by: Fabian.S || ScatteredDrifter
-</div>**
+<div align="right">**Created and designed by: Fabian.S || ScatteredDrifter**
+</div>
 
 Welcome my first attempt to design a orthogonal split-keyboard. 
 
@@ -29,9 +29,9 @@ The PCB was designed to be usable for both the left and right side.
 ## Images: 
 
 ![picture of pcb](Layout/Scattered-Split-pcb-right.jpeg)
-** Right side of PCB**
+**Right side of PCB**
 ![picture of pcb right ](Layout/Scattered-Split-pcb-left.jpeg)
-** Left side of PCB**
+**Left side of PCB**
 
 ---
 

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Crystal-Zeliska-rescue)(type Legacy)(uri ${KIPRJMOD}/Crystal-Zeliska-rescue.lib)(options "")(descr ""))
+)

@@ -1274,7 +1274,7 @@ Col0
 Text GLabel 3400 1550 2    50   Input ~ 0
 RST
 Wire Wire Line
-	4500 1900 4700 1900
+	4500 1900 4600 1900
 Text GLabel 4500 1900 0    50   Input ~ 0
 RST
 Text GLabel 2150 3650 1    50   Input ~ 0
@@ -1301,4 +1301,26 @@ Text GLabel 1700 1550 0    50   Input ~ 0
 GND
 Text GLabel 1700 1650 0    50   Input ~ 0
 GND
+$Comp
+L Device:R R1
+U 1 1 6072FBE5
+P 4900 1600
+F 0 "R1" V 4693 1600 50  0000 C CNN
+F 1 "10k" V 4784 1600 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" V 4830 1600 50  0001 C CNN
+F 3 "~" H 4900 1600 50  0001 C CNN
+	1    4900 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 1600 4600 1600
+Wire Wire Line
+	4600 1600 4600 1900
+Connection ~ 4600 1900
+Wire Wire Line
+	4600 1900 4700 1900
+Wire Wire Line
+	5050 1600 5200 1600
+Text GLabel 5200 1600 2    50   Input ~ 0
++5V
 $EndSCHEMATC
